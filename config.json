@@ -8,11 +8,11 @@
         "host": "student-sign-in-database-server-kedenfeld.database.windows.net",
         "database": "student-sign-in-database",
         "dialect": "mssql",
-        "ssl": true, 
+        "ssl": true,
         "dialectOptions": {
-            "ssl": {
-            "require": true,
-            "rejectUnauthorized": false 
+        "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
         }
         }
     }
