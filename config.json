@@ -5,7 +5,7 @@
         },
     "production": {
         "username": "kmedenfeld",
-        "host": "student-sign-in-database-server-kmedenfeld.database.windows.net",
+        "host": "student-sign-in-database-server-kedenfeld.database.windows.net",
         "database": "student-sign-in-database",
         "dialect": "mssql",
         "ssl": true, 

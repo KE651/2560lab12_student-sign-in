@@ -8,6 +8,9 @@ console.log('path: ', vueClientPath)
 
 let vueApp = express.static(vueClientPath)
 app.use ('/', vueApp)
+// in video this was done a little differently
+// app.use(express.static(vueClientPath))
+// why is the slash needed in the above line but not when the commands are compressed? 
 
 app.use(express.json())
 // makes app aware that there can be json data, convert to javascript
